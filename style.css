@@ -1,0 +1,803 @@
+.bg1 img {
+    width: 100%;
+    position: absolute;
+    z-index: -999;
+}
+
+.menu-btn {
+    width: 68px;
+    height: 64px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    padding-top: 15px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.menu-btn span {
+    width: 60%;
+    height: 3px;
+    background: #fff;
+    display: block;
+    margin: 10px auto;
+}
+
+.menu-box {
+    width: 30%;
+    height: 100vh;
+    background: rgb(170, 128, 86);
+    position: fixed;
+    top: 0;
+    left: -40%;
+    padding: 30px;
+    box-sizing: border-box;
+    transition: all .3s;
+    z-index: 1;
+}
+
+.menu-box a {
+    color: #fff;
+    font-size: 24px;
+    font-family: monospace;
+    line-height: 3.5;
+}
+
+.menu-box.active {
+    left: 0 !important;
+}
+
+.menu-btn.active span:first-child {
+    transform: rotate(45deg) translate(9px, 9px);
+}
+
+.menu-btn.active span:last-child {
+    transform: rotate(-45deg)translate(9px, -9px);
+}
+
+.menu-btn.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.logo img {
+    width: 20%;
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 5%
+}
+
+.name {
+    font-family: monospace;
+    font-size: 70px;
+    font-weight: 800;
+    color: #fff;
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 25%
+}
+
+.slogan {
+    font-family: monospace;
+    font-size: 25px;
+    font-weight: 300;
+    color: #fff;
+    position: absolute;
+    margin-top: 26%;
+    margin-left: 30%;
+}
+
+.search {
+    text-decoration: none;
+    position: absolute;
+    margin-top: 2.5%;
+    margin-left: 65%;
+
+}
+
+.container input#search {
+    background: #CEA06F;
+    border: none;
+    font-family: monospace;
+    font-size: 12pt;
+    float: left;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+.dropdown button {
+    background: #c2996c;
+    font-family: monospace;
+    border: none;
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 80%;
+}
+
+.icon1 img {
+    width: 3%;
+    position: absolute;
+    margin-top: 1.8%;
+    margin-left: 88%;
+}
+
+.icon2 img {
+    width: 3%;
+    position: absolute;
+    margin-top: 1.8%;
+    margin-left: 91%;
+}
+
+.activity {
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 60pt;
+    color: #c2996c;
+    position: absolute;
+    margin-top: 60%;
+    margin-left: 35%;
+    margin-right:35%;
+}
+
+.box1 {
+    position: absolute;
+    margin-top: 70%;
+    margin-left: 1%;
+}
+
+.row {
+    width: 100%;
+}
+
+.card1 {
+    font-family: sans-serif;
+    border: none;
+}
+
+.card2 {
+    font-family: sans-serif;
+    border: none;
+}
+
+.card3 {
+    font-family: sans-serif;
+    border: none;
+}
+
+.col button {
+    background-color: #fff;
+    border: none;
+}
+
+.line {
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    margin-top: 102%;
+}
+
+.col-1 div {
+    background-color: burlywood;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.third {
+    width: 100%;
+    height: auto;
+}
+
+.bg2 img {
+    width: 100%;
+    position: relative;
+    margin-top: 110%;
+}
+
+.people img {
+    width: 33%;
+    position: absolute;
+    margin-top: -50%;
+    margin-left: 2%;
+}
+
+.share {
+    font-family: sans-serif;
+    font-size: 55pt;
+    font-weight: 400;
+    color: #fff;
+    position: relative;
+    margin-top: -40%;
+    margin-left: 32%;
+}
+
+.text {
+    width: 32%;
+    font-family: sans-serif;
+    font-size: 16pt;
+    position: relative;
+    margin-top: 3%;
+    margin-left: 32%;
+}
+
+.text a {
+    color: #fff;
+    text-decoration-line: none;
+}
+
+.blog {
+    position: relative;
+    margin-top: -24%;
+    margin-left: 73%;
+    z-index: 9;
+}
+
+.blog img {
+    width: 70%;
+    margin: 0;
+}
+
+#carouselExampleIndicators {
+    width: 40%;
+    position: relative;
+    margin-top: 2.5%;
+    margin-left: 3%;
+}
+
+.col-4 img {
+    width: 90%;
+    margin: 5%;
+    padding-top: 5%
+}
+
+.row col-4 {
+    float: left;
+}
+
+.no1 {
+    position: relative;
+    margin-left: 45%;
+    margin-top: -28%;
+}
+
+.text2 {
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 45pt;
+    color: #c2996c;
+    position: relative;
+    margin-top: 16%;
+    margin-left: 29%;
+}
+
+.row2 {
+    display: none;
+}
+
+.title {
+    font-family: sans-serif;
+    font-size: 45pt;
+    font-weight: 500;
+    color: #c2996c;
+    position: relative;
+    margin-top: 4%;
+    margin-left: 20%;
+
+}
+
+.title2 {
+    font-family: sans-serif;
+    font-size: 30pt;
+    font-weight: 500;
+    color: #c2996c;
+    position: relative;
+    margin-left: 30%;
+
+}
+
+
+.wrap {
+    height: 700px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    margin-top: 2%;
+}
+
+.b {
+    width: 19.8%;
+    height: 700px;
+}
+
+.fifth {
+    width: 100%;
+    height: 900px;
+    background-color: beige;
+    position: absolute;
+    margin-top: 8%
+}
+
+.bar {
+    width: 100%;
+    height: 250px;
+    background-color: #c2996c;
+    position: absolute;
+    margin-top: 65%;
+}
+
+.bar img {
+    width: 15%;
+    position: relative;
+    top: 18px;
+    left: 20px;
+
+
+}
+
+.last {
+    width: 700px;
+    position: relative;
+    bottom: 155px;
+    left: 250px;
+    color: white;
+    letter-spacing: 2pt;
+    font-size: 12pt;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width:1500px){
+    .activity{
+        font-size: 50pt;
+    }
+}
+
+
+
+
+
+@media only screen and (max-width:1300px) {
+    .name {
+        font-size: 45px;
+    }
+
+    .slogan {
+        font-size: 16px;
+    }
+
+    .icon1 img {
+        display: none;
+    }
+
+    .icon2 img {
+        display: none;
+    }
+    
+     .activity{
+        font-size: 45pt;
+    }
+    
+    .card1 {
+        display: none;
+    }
+    
+    .card2{
+        margin-left: -30%;
+    }
+    
+    .card3{
+        margin-left: -10%;
+    }
+
+    .share {
+        font-size: 48pt;
+    }
+
+    .text {
+        font-size: 14pt;
+        margin-top: 1%;
+    }
+
+    .text2 {
+        margin-left: 23%;
+    }
+
+    .title {
+        font-size: 36pt;
+    }
+
+    .title2 {
+        font-size: 24pt;
+        margin-left: 32%;
+    }
+
+    .wrap {
+        height: 650px;
+    }
+
+    .b {
+        height: 650px;
+    }
+
+    .fifth {
+        height: 850px;
+    }
+
+    .bar {
+        height: 230px;
+    }
+
+    .last {
+        bottom: 145px;
+        font-size: 10pt
+    }
+
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width:1000px) {
+    .col button {
+        display: none;
+    }
+
+    .activity {
+        font-size: 45pt;
+    }
+
+    .box1 {
+        position: absolute;
+        margin-left: 15%;
+    }
+    
+     .activity{
+        font-size: 36pt;
+    }
+    
+    .card2{
+        margin-left: -15%
+    }
+    
+     .card3{
+        margin-left: 5%
+    }
+
+    .share {
+        font-size: 36pt;
+    }
+
+    .text {
+        font-size: 12pt;
+        margin-top: 1%;
+    }
+
+    .blog {
+        margin-top: -28%;
+    }
+
+    .text2 {
+        margin-left: 14%;
+    }
+
+    .wrap {
+        height: 580px;
+    }
+
+    .b {
+        height: 580px;
+    }
+
+    .fifth {
+        height: 580px;
+    }
+
+    .title {
+        margin-left: 10%;
+    }
+
+    .title2 {
+        margin-left: 27%;
+    }
+    
+    .bar {
+        height: 210px;
+    }
+
+    .last {
+        width: 600px;
+        bottom: 105px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:780px) {
+
+    .name {
+        font-size: 30px;
+    }
+
+    .slogan {
+        font-size: 12px;
+    }
+
+    .search {
+        display: none;
+    }
+
+    .dropdown button {
+        display: none;
+    }
+
+
+    .activity {
+        font-size: 36pt;
+        position: absolute;
+        margin-left: 30%;
+    }
+
+    .box1 {
+        position: absolute;
+        margin-left: auto;
+    }
+
+    .card2 {
+        width: 60%;
+        font-size: 10pt;
+        margin-left: 1%;
+    }
+    
+    .card3 {
+        width: 60%;
+        font-size: 10pt;
+    }
+
+    .line {
+        position: absolute;
+        margin-top: 125%;
+    }
+
+    .bg2 img {
+        margin-top: 130%;
+    }
+
+    .share {
+        font-size: 28pt;
+    }
+
+    .text {
+        font-size: 8pt;
+        margin-top: 1%;
+    }
+
+    .blog {
+        margin-top: -28%;
+    }
+
+    .text2 {
+        font-size: 30pt;
+        margin-left: 19%;
+    }
+
+    .wrap {
+        height: 360px;
+    }
+
+    .b {
+        height: 360px;
+    }
+
+    .fifth {
+        height: 400px;
+    }
+
+    .title {
+        font-size: 28pt;
+        margin-left: 5%;
+    }
+
+    .title2 {
+        font-size: 20pt;
+        margin-left: 27%;
+    }
+    
+    .bar {
+        height: 180px;
+    }
+
+    .last {
+        width: 500px;
+        font-size: 9pt;
+        bottom: 80px;
+        left: 160px;
+    }
+
+
+
+
+
+}
+
+
+
+
+
+
+@media only screen and (max-width: 450px) {
+    .frist {
+        width: 100%;
+        height: 800px;
+        background-image: url(frist/1-7.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .bg1 img {
+        display: none;
+    }
+
+    .menu-box {
+        width: 100%;
+        left: -110%;
+    }
+
+    .logo {
+        width: 100%;
+    }
+
+    .logo img {
+        width: 100%;
+        position: absolute;
+        margin: 40% auto;
+    }
+
+    .name {
+        font-size: 50px;
+        position: absolute;
+        margin-top: 120%;
+        margin-left: 27%;
+    }
+
+    .slogan {
+        display: none;
+    }
+
+    second {
+        width: 100%;
+        height: auto;
+    }
+
+    .activity {
+        font-size: 26pt;
+        position: absolute;
+        margin-top: -5%;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+
+    .card2 {
+        display: none;
+    }
+    
+    .card3{
+        margin-left: 0;
+    }
+
+    .box1 {
+        position: absolute;
+        margin-top: 20%;
+        margin-left: 15%;
+    }
+
+    .bg2 img {
+        position: relative;
+        height: 680px;
+        margin-top: 140%;
+    }
+
+    .people {
+        display: none;
+    }
+
+    .blog {
+        display: none;
+    }
+
+    .share {
+        position: relative;
+        margin-top: -140%;
+        margin-left: 15%;
+    }
+
+    .text {
+        width: 60%;
+        font-size: 14pt;
+        margin-top: 15%;
+        margin-left: 20%;
+    }
+
+    .text2 {
+        font-size: 20pt;
+        margin-top: 40%;
+        margin-left: 14%;
+        font-weight: 500;
+    }
+
+    .no1 {
+        display: none;
+    }
+
+    #carouselExampleIndicators {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .row2 {
+        display: block;
+    }
+
+    .row2 img {
+        width: 100%;
+        margin-top: 5%;
+    }
+
+    .fifth {
+        display: none;
+    }
+    
+     .bar {
+        height: 600px;
+         position: absolute;
+         margin-top: 0;
+    }
+    
+    .bar img{
+        display: none;
+    }
+
+    .last {
+        width: 70%;
+        height: 450px;
+        font-size: 14pt;
+        bottom: -150px;
+        left: 30px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
