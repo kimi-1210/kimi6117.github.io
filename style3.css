@@ -265,6 +265,15 @@
     }
     .text{
         font-size: 10pt;
+        line-height: 25pt
     }
 }
 
+@media only screen and (max-width:1200px){
+    .name{
+        font-size: 20pt;
+    }
+    .text{
+        line-height: 20pt
+    }
+}
